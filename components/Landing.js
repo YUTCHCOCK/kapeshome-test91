@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Section = styled.section\`
+const Section = styled.section`
   height: 100vh;
   background: #f7931e;
   display: flex;
@@ -8,21 +8,21 @@ const Section = styled.section\`
   align-items: center;
   position: relative;
   overflow: hidden;
-\`
+`
 
-const Video = styled.iframe\`
+const Video = styled.iframe`
   position: absolute;
   top: 0; left: 0;
   width: 100%;
   height: 100%;
   pointer-events: none;
   z-index: 1;
-\`
+`
 
-const Logo = styled.img\`
+const Logo = styled.img`
   width: 260px;
   z-index: 2;
-\`
+`
 
 export default function Landing() {
   return (
