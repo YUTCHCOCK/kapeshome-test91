@@ -1,1 +1,3 @@
-# kapeshome-test91
+# Kapes Planet
+
+Landing page for kapesplanet.com
